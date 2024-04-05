@@ -1,9 +1,27 @@
+.container {
+  height: 100vh;
 
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 60px 1fr;
+}
 
+.header {
+  background-color: #fff;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
 
-header{
-  justify-content: center;
-  align-items: center;
-  width:100%;
-  padding-left: 220px;
+.sidebar {
+  background-color: #1c1f23;
+  
+  grid-column: 1 / 2;
+  grid-row: 1 / span 2;
+  grid-auto-rows: minmax(min-content, 1fr);
+}
+
+.main {
+  background-color: #c3c5ca;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3
 }
