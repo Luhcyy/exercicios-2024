@@ -39,6 +39,10 @@
 
 
 .header .language-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   font-family: Quicksand;
   width: 7.101vw;
   height: 5.321vh;
@@ -47,5 +51,17 @@
   background: none;
   border: 1px solid #CCCCCC;
   border-radius: 3px;
+}
+
+.button_language_icon{
+  width: 1.245vw;
+  height: 2.504vh;
+  margin-right: 5px
+}
+
+.button_language_icon-2{
+  width: 1.245vw;
+  height: 2.504vh;
+  margin-left: 5px
 }
 
