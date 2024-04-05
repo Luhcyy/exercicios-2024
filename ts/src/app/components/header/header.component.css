@@ -1,9 +1,7 @@
-.header_container{
-  
-
+.header_container {
   border: 2px solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+}/*# sourceMappingURL=header.component.css.map */
