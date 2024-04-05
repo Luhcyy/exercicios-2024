@@ -1,7 +1,34 @@
-.header_container {
-  border: 2px solid;
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.header {
+  height: 100%;
+  background-color: #FDF1EB;
+}
+
+.header_text_container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-left: 36px;
+  font-family: Roboto;
+}
+
+.header .small_header_text-1 {
+  margin-left: 36px;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #725C5C;
+}
+
+.header_text_container .small_header_text-2 {
+  font-size: 14px;
+  color: #725C5C;
+}
+
+.header_text_container .medium_header_text {
+  font-size: 22px;
+  color: #725C5C;
+}
+
+.header .language-button {
+  width: 97px;
+  height: 34px;
 }/*# sourceMappingURL=header.component.css.map */
