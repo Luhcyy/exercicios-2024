@@ -1,8 +1,8 @@
 .container {
   height: 100vh;
   display: grid;
-  grid-template-columns: 14.641vw 1fr;
-  grid-template-rows: 9.3896713615vh 1fr;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 60px 1fr;
 }
 
 .header {
@@ -12,6 +12,7 @@
 }
 
 .sidebar {
+  background-color: #1c1f23;
   grid-column: 1/2;
   grid-row: 1/span 2;
   grid-auto-rows: minmax(min-content, 1fr);
