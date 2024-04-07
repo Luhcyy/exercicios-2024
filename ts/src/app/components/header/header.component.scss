@@ -77,7 +77,7 @@
   flex-direction: column;
   text-align: right;
   font-family: Quicksand;
-  margin-right: 20px;
+  margin-right: 4px;
 }
 
 .login_welcome_msg {
@@ -89,8 +89,18 @@
 }
 
 .header_login_area .login_pfp_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 2.218vw;
   height: 2.242vw;
-  border: 2px solid;
+  
+  
+}
+
+.login_pfp_container .user_pfp{
+  width: 3.514vw;
+  height: 2.196vw;
   border-radius: 17px;
 }
