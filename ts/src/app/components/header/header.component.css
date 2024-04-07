@@ -34,12 +34,56 @@
 }
 
 .header .language-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   font-family: Quicksand;
   width: 7.101vw;
-  height: 5.321vh;
-  margin-right: 100px;
+  height: 2.489vw;
   font-size: 1.025vw;
   background: none;
   border: 1px solid #CCCCCC;
   border-radius: 3px;
+}
+
+.language-button .button_language_icon {
+  height: 1.025vw;
+  width: 1.098vw;
+  margin-right: 5px;
+}
+
+.language-button .button_language_dropdown {
+  width: 10px;
+  height: 14px;
+  margin-left: 2px;
+}
+
+.header_login_area {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+.header .login_text_container {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-family: Quicksand;
+  margin-right: 20px;
+}
+
+.login_welcome_msg {
+  font-size: 1.025vw;
+}
+
+.login_user_email {
+  font-size: 0.878vw;
+}
+
+.header_login_area .login_pfp_container {
+  width: 2.218vw;
+  height: 2.242vw;
+  border: 2px solid;
+  border-radius: 17px;
 }/*# sourceMappingURL=header.component.css.map */
