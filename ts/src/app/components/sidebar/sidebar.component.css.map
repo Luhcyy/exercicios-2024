@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"sidebar.component.css"}
+{"version":3,"sources":["sidebar.component.scss","sidebar.component.css"],"names":[],"mappings":"AAAA;EACE,YAAA;EACA,aAAA;EACA,sBAAA;ACCF;;ADGA;EACE,mBAAA;EACA,eAAA;EACA,eAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,mBAAA;EACA,cAAA;EACA,mDAAA;ACAF;;ADGA;EACE,kBAAA;EACA,oBAAA;EACA,gBAAA;ACAF","file":"sidebar.component.css"}
