@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  pfpPath: string
 
-  constructor() { }
+  constructor() {
+    this.pfpPath = "/assets/woman-face-sample.jpeg"
+  }
 
   ngOnInit(): void {
   }
