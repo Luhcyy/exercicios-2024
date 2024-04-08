@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent implements OnInit {
+  eventLogoPath:string
 
-  constructor() { }
+  constructor() {
+    this.eventLogoPath = "/assets/13-slaca-cropped.png"
+  }
 
   ngOnInit(): void {
   }
