@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .main{
-  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .main h2{
@@ -16,6 +19,247 @@
   font-size: 1.464vw;
 }
 
+.top-side_container{
+  display: grid;
+  grid-template-columns: auto auto ;
+  align-items: center;
+  gap: 10px;
+}
 
 
+
+.top-side_container .buttons_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-right_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-right_container .citacao {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.025vw;
+  color: #ED7839;
+  letter-spacing: 1px;
+}
+
+.buttons_container .favorite-button{
+  cursor: pointer;
+  color: white;
+  width: 3.148vw;
+  height: 2.269vw;
+  margin: 5px;
+  border-radius: 4px;
+  background-color: #ED7839;
+}
+
+.favorite-button .star-solid {
+  color: white;
+  height: 19px;
+  width: 19px;
+}
+
+.buttons_container .doi-button{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 3.148vw;
+  height: 2.269vw;
+  margin: 5px;
+  border-radius: 4px;
+  background-color: #ED7839;
+}
+
+.doi-button .doi-solid {
+  height: 19px;
+  width: 19px;
+}
+
+.buttons_container .download-button{
+  cursor: pointer;
+  font-family: Roboto;
+  background-color: #ED7839;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  width: 8.785vw;
+  height: 2.269vw;
+  margin: 5px;
+}
+
+
+.video_overlay{
+position: relative;
+background-color: #8D350680;
+background-size: cover;
+background-position: center;
+width: 57.321vw;
+height: 32.138vw;
+margin-top: 10px;
+border-radius: 3px
+}
+
+.video_overlay .background_video{
+  mix-blend-mode:overlay;
+  width: 57.321vw;
+  height: 32.138vw;
+  border-radius: 3px;
+}
+
+.video_overlay .video_top-text{
+  width: 53.734vw;
+  height: 3.953vw;
+  font-family: Roboto;
+  font-size: 1.757vw;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: #FFFFFF;
+}
+
+.video_bottom_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.video_overlay .video_bottom_container{
+  font-family: Roboto;
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+}
+
+.video_bottom_container .photo_outline{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.149vw;
+  height: 6.296vw;
+  border: 1px solid #ED7839;
+  border-radius: 50%;
+
+}
+
+  .photo_outline img{
+    position: relative;
+    top: 12%;
+    left: -7%;
+    width: 9.517vw;
+    height: 8.053vw;
+
+  }
+
+  .video_bottom_container .bottom_container_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-left: 20px;
+  }
+
+  .bottom_container_text h1{
+    font-size: 2.489vw;
+  }
+
+  .bottom_container_text h3 {
+    font-size: 1.464vw;
+  }
+
+
+  .mid-top_container{
+    display: flex;
+    flex-direction: row;
+    width: 77.526vw;
+    justify-content: center;
+  }
+
+  .mid-top_container .info-trabalho_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17.716vw;
+    height: 32.138vw;
+    border: 1px solid #ECECEC;
+    margin-left: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .info-trabalho_container .info-title {
+    background-color: #FDF1EB;
+    width: 17.716vw;
+    height: 3.294vw;
+
+    border-radius: 5px;
+  }
+
+  .info-title h3 {
+    font-family: Roboto;
+    color: #4E4E4E;
+    margin-top: 0.732vw;
+    margin-left: 1.464vw;
+    width: 15.52vw;
+  }
+
+  .info-content {
+    font-family: Quicksand;
+    display: flex;
+    flex-direction: column;
+    height: 26.647vw;
+    width: 15.52vw;
+    margin-top: 0.732vw;
+  }
+
+.top-info p{
+  color: #5c5c5c;
+  font-weight: 400;
+  font-size: 0.878vw;
+
+}
+
+.top-info span{
+  font-weight: 700;
+  font-size: 0.878vw;
+}
+
+.mid-info{
+  margin-top: 1.464vw;
+  color: #5c5c5c;
+}
+
+.mid-info .mid_title{
+  font-weight: 700;
+  font-size: 1.025vw;
+  color: #5c5c5c;;
+}
+
+.mid-info .superscript{
+  color: #4E4E4E;
+  font-size: 0.878vw;
+  font-weight: 400;
+}
+
+.mid-info p {
+  color: #4E4E4E;
+  font-size: 1.025vw;
+}
+
+.bottom-info{
+margin-top: 5.124vw;
+
+}
+
+.bottom-info p{
+  font-size: 0.878vw;
+  color: #ada0a0;
+}
 
