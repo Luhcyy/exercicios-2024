@@ -2,16 +2,18 @@
   display: flex;
   justify-content: left;
   align-items: center;
-  font-family: Quicksand;
   width: 220px;
   height: 30px;
   border-bottom: 2px solid #E7E7E7;
-  color: #725C5C;
+
 }
 
 .menu_item_container .menu_item_text {
+  font-family: Quicksand;
   font-size: 15px;
   line-height: 18.75px;
   font-weight: 500;
   margin-left: 24px;
+  text-decoration: none;
+  color: #725C5C;
 }
