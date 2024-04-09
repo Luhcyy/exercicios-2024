@@ -8,6 +8,7 @@ import { MainComponent } from './components/main/main.component';
 import { MenuItemComponent } from './components/sidebar/menu-item/menu-item.component';
 import { TopicCardComponent } from './components/main/topic-card/topic-card.component';
 import { AnsweredTopicComponent } from './components/main/topic-card/answered-topic/answered-topic.component';
+import { TopicFormComponent } from './components/main/topic-card/topic-form/topic-form.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AnsweredTopicComponent } from './components/main/topic-card/answered-to
     MainComponent,
     MenuItemComponent,
     TopicCardComponent,
-    AnsweredTopicComponent
+    AnsweredTopicComponent,
+    TopicFormComponent
   ],
   imports: [
     BrowserModule
