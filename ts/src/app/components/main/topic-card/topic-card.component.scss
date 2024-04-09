@@ -1,10 +1,86 @@
 .topic-card_container
 {
+  font-family: Quicksand;
   width: 75.256vw;
   height: 10.835vw;
   display: flex;
   flex-direction: column;
   border: 1px solid #E7E7E7;
-  margin-top: 30px;
+  margin-bottom: 20px;
   border-radius: 4px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.topic-card_container .topic-card_header {
+  display: flex;
+  flex-direction: column;
+  width: 39.683vw;
+  height: 2.782vw;
+}
+
+.topic-card_container .question-topic {
+  font-size: 1.171vw;
+  height: 1.464vw;
+  font-weight: 700;
+  color: #ED7839;
+  line-height: 20px;
+}
+
+.topic-card_container .question-author {
+  font-weight: 500;
+  font-size: 0.878vw;
+  color: #5C5C5C;
+}
+
+.topic-card_body{
+  margin-top: 20px;
+}
+
+.topic-card_container .question-text {
+  font-weight: 400;
+  font-size: 1.025vw;
+  color: #4D4D4D;
+}
+
+.topic-card_container .topic-card_footer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  gap: 10px;
+}
+
+.topic-card_footer .three-ellipsis{
+  width: 0.293vw;
+  height: 1.318vw;
+}
+
+.favorite-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.977vw;
+  height: 1.391vw;
+  background-color: #ED7839;
+  border-radius: 4px;
+}
+
+.favorite-button img {
+  width: 1.025vw;
+  height: 1.025vw;
+}
+
+.likes{
+  font-size: 1.025vw;
+  font-weight: 350;
+  text-decoration: none;
+  color: #757575;
+}
+
+.answers{
+  font-size: 1.025vw;
+  font-weight: 350;
+  text-decoration: none;
+  color: #757575;
 }
