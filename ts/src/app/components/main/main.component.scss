@@ -273,7 +273,7 @@ margin-top: 5.124vw;
   color: #ada0a0;
 }
 
-.resume_section{
+.summary_section{
 display: flex;
 flex-direction: column;
 margin-top: 20px;
@@ -283,7 +283,7 @@ min-height: 13.836vw;
 
 }
 
-.resume_section .resume_section-header {
+.summary_section .summary_section-header {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #ECECEC;
@@ -292,14 +292,14 @@ min-height: 13.836vw;
   background-color: #FDF1EB;
 }
 
-.resume_section-header .resume_header_text {
+.summary_section-header .summary_header_text {
   font-family: Roboto;
   font-size: 1.464vw;
   color: #4E4E4E;
   margin-left: 1.098vw;
 }
 
-.resume_section .resume_content {
+.summary_section .summary_content {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -308,7 +308,7 @@ min-height: 13.836vw;
   height: auto;
 }
 
-.resume_content p {
+.summary_content p {
 font-family: Quicksand;
 font-size: 1.025vw;
 line-height: 1.665vw;
@@ -316,7 +316,7 @@ font-weight: 400;
 }
 
 
-.resume_content .btn-show-more {
+.summary_content .btn-show-more {
   font-family: Quicksand;
   font-weight: 700;
   font-size: 1.025vw;
