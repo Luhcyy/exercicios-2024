@@ -1,9 +1,12 @@
+
+
 .container {
   height: 100vh;
 
   display: grid;
   grid-template-columns: 16.105vw 1fr;
   grid-template-rows: 4.978vw 1fr;
+  overflow-x: hidden;
 }
 
 .header {
