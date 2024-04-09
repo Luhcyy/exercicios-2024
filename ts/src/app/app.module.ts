@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MainComponent } from './components/main/main.component';
 import { MenuItemComponent } from './components/sidebar/menu-item/menu-item.component';
+import { TopicCardComponent } from './components/main/topic-card/topic-card.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { MenuItemComponent } from './components/sidebar/menu-item/menu-item.comp
     HeaderComponent,
     SidebarComponent,
     MainComponent,
-    MenuItemComponent
+    MenuItemComponent,
+    TopicCardComponent
   ],
   imports: [
     BrowserModule
