@@ -1,5 +1,4 @@
 <main class="main">
-
   <div class="top-side_container">
     <h2 class="Título do trabalho">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h2>
     <div class="top-right_container">
@@ -18,7 +17,7 @@
     <h1 class="video_top-text">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h1>
       <div class="video_bottom_container">
         <div class="photo_outline">
-        <img [src]="videoImagePath" alt="">
+        <img [src]="videoImagePath" alt="video-front-image">
       </div>
 
     <div class="bottom_container_text">
@@ -60,7 +59,16 @@
 
   <div class="resume_section">
     <div class="resume_section-header">
-      <h3>Resumo</h3>
+      <h3 class="resume_header_text">Resumo</h3>
+    </div>
+
+    <div class="resume_content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt luctus diam nec venenatis. Cras tincidunt eu orci ut mollis. Nullam sit amet velit dictum, rhoncus ipsum eget, placerat ante. Fusce eu odio at ipsum congue dignissim eu id velit. Nulla tortor dui, eleifend vitae gravida in, viverra at erat. Integer vel ante ipsum. Cras lobortis fermentum justo a sodales. Sed iaculis cursus enim quis varius. Sed aliquet nibh nec purus pellentesque hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis nisi purus, quis egestas leo scelerisque nec. Cras a tristique turpis. Pellentesque mollis urna eros, non semper odio mattis vitae.
+        Donec interdum libero vel ligula laoreet pretium. Quisque sagittis ante in fringilla sodales<span id="points" *ngIf="hideText">...</span> <a href="#" class="btn-show-more" (click)="toggleShowMoreText()" *ngIf="hideText">ver mais</a> <span *ngIf="showMoreText" id="more"> Pellentesque dolor lectus, feugiat et justo et, molestie semper tellus. Integer vel pellentesque purus. <br><br> Mauris eget augue vel tortor ultrices commodo. Maecenas maximus urna feugiat justo pretium, sed convallis mi aliquam. Maecenas maximus metus lacus, vel semper urna mattis et. Vestibulum ligula risus, ornare vitae fermentum vitae, sodales sit amet ligula. Aenean libero risus, cursus rhoncus elementum sed, elementum quis enim. Mauris efficitur, ipsum in maximus dictum, mi magna convallis massa, vitae accumsan nisl felis quis sapien. Suspendisse elit metus, venenatis et purus at, cursus aliquam tellus.
+        Aliquam aliquam imperdiet maximus. Ut condimentum lectus vitae sagittis dignissim. <br><br> Phasellus auctor, sapien nec imperdiet fringilla, quam augue venenatis tortor, eget venenatis augue nunc in lorem. Curabitur interdum ultricies purus ut euismod. Integer cursus ligula et metus pretium, eget vehicula eros semper. Ut lacinia enim ac leo tristique, et facilisis nibh rhoncus. Aenean vestibulum accumsan lectus, quis maximus nibh tempus sit amet. Nullam vitae fringilla enim. Phasellus semper pellentesque mauris tincidunt finibus. Nullam iaculis aliquam hendrerit. Donec dapibus mollis enim non pellentesque. Vivamus lectus nulla, convallis ut accumsan vitae, tristique sit amet diam. <br> <br>
+        Integer placerat dolor vel elit consectetur, ut aliquet mi rutrum. Aenean ut fringilla enim. Proin nulla lorem, lobortis commodo risus vehicula, sagittis scelerisque odio. Praesent vitae elit vehicula, tempus ipsum eget, placerat mi. Integer eleifend elementum pharetra. In sed rhoncus diam. Nullam egestas laoreet venenatis. In lobortis commodo tellus, vitae dignissim odio. Phasellus ac mi et erat luctus dignissim. Nulla malesuada tristique erat, eu ullamcorper nisi. Suspendisse non tincidunt lorem. Donec lobortis gravida posuere. Suspendisse eget purus mauris. Aenean non ante vel urna molestie sagittis ut sit amet sapien. Aliquam ullamcorper eu libero ut malesuada.
+
+        <a href="#" class="btn-show-more" (click)="toggleShowMoreText()" *ngIf="showMoreText">ver menos</a></span></p>
     </div>
   </div>
 </main>
