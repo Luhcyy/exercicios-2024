@@ -1,4 +1,4 @@
-<div class="topic-card_container">
+<div class="answered-topic">
 <div class="topic-card_header">
 <h3 class="ops-topic-subject">Assunto da pergunta aparece aqui</h3>
 <span class="question-author">Carlos Henrique Santos</span>
@@ -11,7 +11,11 @@
 <div class="topic-card_footer">
   <a href="#"><img src="/assets/ellipsis-vertical-solid.svg" alt="" class="three-ellipsis"></a>
   <button class="favorite-button"><img src="/assets/heart-solid-white.svg" alt="heart-icon"></button>
-  <a href="#" class="likes">1 like</a>
-  <a href="#" class="answers">1 resposta</a>
+  <a class="likes">1 like</a>
+  <a href="#" class="answers" (click)="toggleAnsweredTopics()">1 resposta</a>
 </div>
 </div>
+<div class="comments-container">
+<app-answered-topic *ngIf="showAnsweredTopics"></app-answered-topic>
+</div>
+

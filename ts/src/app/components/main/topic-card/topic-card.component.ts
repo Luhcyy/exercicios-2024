@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./topic-card.component.scss']
 })
 export class TopicCardComponent implements OnInit {
-
+showAnsweredTopics = false
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleAnsweredTopics() {
+    this.showAnsweredTopics = !this.showAnsweredTopics
   }
 
 }

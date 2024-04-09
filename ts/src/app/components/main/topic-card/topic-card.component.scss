@@ -1,4 +1,4 @@
-.topic-card_container
+.answered-topic
 {
   font-family: Quicksand;
   width: 75.256vw;
@@ -12,14 +12,16 @@
   padding: 20px;
 }
 
-.topic-card_container .topic-card_header {
+
+
+.answered-topic .topic-card_header {
   display: flex;
   flex-direction: column;
   width: 39.683vw;
   height: 2.782vw;
 }
 
-.topic-card_container .ops-topic-subject {
+.answered-topic .ops-topic-subject {
   font-size: 1.171vw;
   height: 1.464vw;
   font-weight: 700;
@@ -27,7 +29,7 @@
   line-height: 20px;
 }
 
-.topic-card_container .question-author {
+.answered-topic .question-author {
   font-weight: 500;
   font-size: 0.878vw;
   color: #5C5C5C;
@@ -37,16 +39,16 @@
   margin-top: 20px;
 }
 
-.topic-card_container .question-text {
+.answered-topic .question-text {
   font-weight: 400;
   font-size: 1.025vw;
   color: #4D4D4D;
 }
 
-.topic-card_container .topic-card_footer{
+.answered-topic .topic-card_footer{
   display: flex;
   flex-direction: row;
-  margin-top: 5px;
+  margin-top: 10px;
   gap: 10px;
 }
 
