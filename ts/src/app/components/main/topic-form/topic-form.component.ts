@@ -1,4 +1,5 @@
-import { Component, EventEmitter, Output,OnInit } from '@angular/core';
+import { TopicServiceService } from 'src/app/services/Topic-service.service';
+import { Component, Output, OnInit, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-topic-form',
@@ -9,9 +10,12 @@ export class TopicFormComponent implements OnInit {
   isSent = false;
   hideTopicForm = false;
 
-  @Output() sendEvent = new EventEmitter<void>()
+  subject = '';
+  content = '';
 
-  constructor() { }
+  @Output() sendClicked = new EventEmitter<void>()
+
+  constructor(private topicService: TopicServiceService) { }
 
   ngOnInit(): void {
   }
@@ -21,9 +25,12 @@ export class TopicFormComponent implements OnInit {
   }
 
   onSend() {
+    this.topicService.changeTopic(this.subject, this.content);
     setTimeout(() => {
-    this.hideTopicForm = true;
+    
     this.isSent = true;
+    this.hideTopicForm = true;
+    this.sendClicked.emit();
     }, 1000);
   }
 }
