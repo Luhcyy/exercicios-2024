@@ -11,6 +11,7 @@ import { TopicFormComponent } from './components/main/topic-form/topic-form.comp
 import { TopicSentComponent } from './components/main/topic-sent/topic-sent.component';
 import { PendingTopicComponent } from './components/main/pending-topic/pending-topic.component';
 import { FormsModule } from '@angular/forms';
+import { TopicServiceService } from './services/Topic-service.service';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [TopicServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
