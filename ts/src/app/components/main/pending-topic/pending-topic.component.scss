@@ -1,0 +1,131 @@
+.blur-overlay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  background-color: rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+  z-index: 1;
+}
+
+.blur-overlay .checkmark-icon {
+  width: 2.264vw;
+  height: 1.7vw;
+  z-index: 2;
+}
+
+.blur-overlay .blur-overlay_text{
+  font-family: Quicksand;
+  font-size: 1.171vw;
+  font-weight: 700;
+  color: #707070;
+  z-index: 2;
+}
+
+.blur-overlay .blur-overlay_link{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 1.025vw;
+  color: #ED7839;
+  font-weight: 400;
+  z-index: 2;
+}
+
+.pending-topic_container{
+  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: Quicksand;
+  width: 75.256vw;
+  height: auto;
+  border: 1px solid #E7E7E7;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+
+.pending-topic_container .topic-card_header {
+  display: flex;
+  flex-direction: column;
+  width: 39.683vw;
+  height: 2.782vw;
+}
+
+.pending-topic_container .ops-topic-subject {
+  font-size: 1.171vw;
+  height: 1.464vw;
+  font-weight: 700;
+  color: #ED7839;
+  line-height: 20px;
+}
+
+.pending-topic_container .question-author {
+  font-weight: 500;
+  font-size: 0.878vw;
+  color: #5C5C5C;
+}
+
+.topic-card_body{
+  height: auto;
+  margin-top: 20px;
+}
+
+.pending-topic_container .question-text {
+  font-weight: 400;
+  font-size: 1.025vw;
+  color: #4D4D4D;
+}
+
+.pending-topic_container .topic-card_footer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.topic-card_footer .three-ellipsis{
+  width: 0.293vw;
+  height: 1.318vw;
+}
+
+.favorite-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.977vw;
+  height: 1.391vw;
+  background-color: #ED7839;
+  border-radius: 4px;
+}
+
+.favorite-button img {
+  width: 1.025vw;
+  height: 1.025vw;
+}
+
+.likes{
+  font-size: 1.025vw;
+  font-weight: 350;
+  text-decoration: none;
+  color: #757575;
+}
+
+.answers{
+  font-size: 1.025vw;
+  font-weight: 350;
+  text-decoration: none;
+  color: #757575;
+}
