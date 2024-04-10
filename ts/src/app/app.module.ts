@@ -9,7 +9,8 @@ import { TopicCardComponent } from './components/main/topic-card/topic-card.comp
 import { AnsweredTopicComponent } from './components/main/topic-card/answered-topic/answered-topic.component';
 import { TopicFormComponent } from './components/main/topic-form/topic-form.component';
 import { TopicSentComponent } from './components/main/topic-sent/topic-sent.component';
-
+import { PendingTopicComponent } from './components/main/pending-topic/pending-topic.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,10 +22,12 @@ import { TopicSentComponent } from './components/main/topic-sent/topic-sent.comp
     TopicCardComponent,
     AnsweredTopicComponent,
     TopicFormComponent,
-    TopicSentComponent
+    TopicSentComponent,
+    PendingTopicComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
