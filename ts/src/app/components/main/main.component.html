@@ -13,11 +13,11 @@
 
   <div class="mid-top_container">
   <div class="video_overlay">
-    <img [src]="videoPath" alt="video" class="background_video">
+    <img src="/assets/video.png" alt="video" class="background_video">
     <h1 class="video_top-text">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h1>
       <div class="video_bottom_container">
         <div class="photo_outline">
-        <img [src]="videoImagePath" alt="video-front-image">
+        <img src="/assets/master_photo-cropped.png" alt="video-front-image">
       </div>
 
     <div class="bottom_container_text">
@@ -78,8 +78,8 @@
       </div>
 
 
-      <app-topic-form *ngIf="showTopicForm"></app-topic-form>
-
+      <app-topic-form *ngIf="showTopicForm" (sendClicked)="addPendingTopic()"></app-topic-form>
+      
 
       <div class="discussions_content_container" *ngIf="showDiscussionsSection">
         <h4 class="discussions_content_title">Compartilhe suas ideias ou dúvidas com os autores!</h4>
@@ -99,6 +99,12 @@
 
 
       </div>
+      <ng-container *ngFor="let topic of pendingTopics">
+        <ng-container *ngTemplateOutlet="pendingTopicTemplate"></ng-container>
+      </ng-container>
+      <ng-template #pendingTopicTemplate>
+        <app-pending-topic></app-pending-topic>
+      </ng-template>
       <app-topic-card></app-topic-card>
       <app-topic-card ></app-topic-card>
   </div>
