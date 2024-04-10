@@ -6,17 +6,17 @@
 
   <div class="form_body">
     <form action="" class="subject_title">Assunto</form>
-    <input type="text" class="subject" placeholder="Defina um tópico sucinto para notificar os autores...">
+    <input type="text" class="subject" [(ngModel)]="subject" placeholder="Defina um tópico sucinto para notificar os autores...">
 
     <form action="" class="content_title">Conteúdo</form>
-    <textarea name="" id="content-input_text" cols="30" rows="10"></textarea>
+    <textarea name="" id="content-input_text" [(ngModel)]="content" cols="30" rows="10"></textarea>
   </div>
 
   <div class="form_footer">
-    <button class="btn-send button" (click)="onSend()">Enviar</button>
+    <button class="btn-send" (click)="onSend()">Enviar</button>
   </div>
 </div>
 
 
 <app-topic-sent *ngIf="isSent"></app-topic-sent>
-<hr>
+<hr *ngIf="!hideTopicForm">
