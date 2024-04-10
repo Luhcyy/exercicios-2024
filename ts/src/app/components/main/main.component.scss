@@ -394,7 +394,6 @@ width: 100%;
 }
 
 
-
 .btn-create-topic {
   font-family: Quicksand;
   font-size: 1.098vw;
@@ -425,3 +424,26 @@ width: 100%;
   margin-top: 0;
   margin-bottom: 30px;
 }
+
+.page_division{
+  border: 1px solid #E7E7E7;
+  clear: both;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer img {
+  width: 76.867vw;
+
+}
+
+
+

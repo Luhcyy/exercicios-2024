@@ -77,7 +77,11 @@
         <h3 class="discussions_header_text">Discussões</h3>
       </div>
 
-      <div class="discussions_content_container">
+
+      <app-topic-form *ngIf="showTopicForm"></app-topic-form>
+
+
+      <div class="discussions_content_container" *ngIf="showDiscussionsSection">
         <h4 class="discussions_content_title">Compartilhe suas ideias ou dúvidas com os autores!</h4>
 
         <div class="discussions_images">
@@ -87,13 +91,21 @@
         </div>
         <span class="discussions_content_text">Sabia que o maior estimulo no desenvolvimento cientifico e cultural é a curiosidade? Deixe seus questionamentos ou sugetões para o autor!</span>
         <div class="topic_button_container">
-        <button class="btn-create-topic"><span>+</span> criar tópico</button>
+        <button class="btn-create-topic" (click)="toggleTopicForm()"><span>+</span> criar tópico</button>
       </div>
+
 
       <hr class="topic_separation">
 
+
       </div>
       <app-topic-card></app-topic-card>
-      <app-topic-card></app-topic-card>
+      <app-topic-card ></app-topic-card>
   </div>
+
+  <hr class="page_division">
+
+  <footer>
+    <img src="/assets/Galoa-cropped.png" alt="">
+  </footer>
 </main>
