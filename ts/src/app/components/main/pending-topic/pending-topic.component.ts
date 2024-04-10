@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { TopicServiceService } from 'src/app/services/Topic-service.service';
 
 @Component({
   selector: 'app-pending-topic',
@@ -6,15 +7,18 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./pending-topic.component.scss']
 })
 export class PendingTopicComponent implements OnInit {
-  @Input() subject: string = "";
-  @Input() content: string = "";
+  subject: string = '';
+  content: string = '';
 
-  constructor() {
+  constructor(private topicService: TopicServiceService) {
     
   }
 
   ngOnInit(): void {
-    
+    this.topicService.currentTopic.subscribe(topic =>{
+      this.subject = topic.subject;
+      this.content = topic.content;
+    })
   }
 
 
