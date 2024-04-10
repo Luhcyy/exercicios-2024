@@ -5,8 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './topic-card.component.html',
   styleUrls: ['./topic-card.component.scss']
 })
+
+
 export class TopicCardComponent implements OnInit {
 showAnsweredTopics = false
+
   constructor() { }
 
   ngOnInit(): void {
