@@ -46,11 +46,11 @@
   width: 75.256vw;
   height: auto;
   border: 1px solid #E7E7E7;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1.464vw;
+  margin-bottom: 1.464vw;
   border-radius: 4px;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
-  padding: 20px;
+  padding: 1.464vw;
   overflow: hidden;
 }
 
@@ -68,7 +68,7 @@
   height: 1.464vw;
   font-weight: 700;
   color: #ED7839;
-  line-height: 20px;
+  line-height: 1.464vw;
 }
 
 .pending-topic_container .question-author {
@@ -79,7 +79,7 @@
 
 .topic-card_body{
   height: auto;
-  margin-top: 20px;
+  margin-top: 1.464vw;
 }
 
 .pending-topic_container .question-text {
@@ -91,8 +91,8 @@
 .pending-topic_container .topic-card_footer{
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
-  gap: 10px;
+  margin-top: 2.196vw;
+  gap: 0.732vw;
 }
 
 .topic-card_footer .three-ellipsis{
