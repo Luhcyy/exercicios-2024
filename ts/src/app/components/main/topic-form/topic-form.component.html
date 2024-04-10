@@ -1,0 +1,22 @@
+<div class="topic_form" *ngIf="!hideTopicForm">
+
+  <div class="form_header">
+    <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+  </div>
+
+  <div class="form_body">
+    <form action="" class="subject_title">Assunto</form>
+    <input type="text" class="subject" placeholder="Defina um tópico sucinto para notificar os autores...">
+
+    <form action="" class="content_title">Conteúdo</form>
+    <textarea name="" id="content-input_text" cols="30" rows="10"></textarea>
+  </div>
+
+  <div class="form_footer">
+    <button class="btn-send button" (click)="onSend()">Enviar</button>
+  </div>
+</div>
+
+
+<app-topic-sent *ngIf="isSent"></app-topic-sent>
+<hr>

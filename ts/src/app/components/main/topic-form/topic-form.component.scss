@@ -1,0 +1,96 @@
+.topic_form{
+  display: flex;
+  flex-direction: column;
+  width: 75.037vw;
+  height: 17.936vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.topic_form .form_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form_header p{
+  font-family: Quicksand;
+  font-weight: 400;
+  font-size: 1.025vw;
+  color: #5C5C5C;
+}
+
+.form_body{
+  width: 74.709vw;
+  margin-top: 20px;
+}
+
+.form_body .subject_title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 1.171vw;
+  color: #ED7839;
+}
+
+.form_body .subject{
+  width: 75.075vw;
+  height: 2.855vw;
+  border: 1px solid #CCCCCC;
+  font-family: Quicksand;
+  color: #4D4D4D;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.form_body .content_title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 1.171vw;
+  color: #ED7839;
+  margin-top: 10px;
+}
+
+.form_body #content-input_text {
+  width: 75.075vw;
+  height: 6.003vw;
+  border: 1px solid #CCCCCC;
+  resize: none;
+  font-family: Quicksand;
+  color:#4D4D4D;
+  margin-bottom: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.form_footer{
+  display: flex;
+  justify-content: right;
+  width: 75.075vw;
+  height: 2.269vw;
+  border: 1px solid #CCCCCC;
+  background-color: #EAF1F2;
+  margin-top: -0.366vw;
+  border-radius: 0 0 4px 0;
+}
+
+.form_footer .btn-send {
+  font-family: Quicksand;
+  width: 15.015vw;
+  border-radius: 0 0 4px 0;
+  font-size: 1.098vw;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-image: linear-gradient(#FEB154, #F1833E);
+  cursor: pointer;
+}
+
+hr{
+  border: 1px solid #E7E7E7;
+  clear: both;
+  display: block;
+  width: 75.037vw;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
