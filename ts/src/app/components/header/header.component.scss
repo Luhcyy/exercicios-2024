@@ -90,6 +90,7 @@
 }
 
 .header_login_area .login_pfp_container{
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -105,3 +106,20 @@
   height: 2.196vw;
   border-radius: 17px;
 }
+
+.notification-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 0.952vw;
+  height: 0.952vw;
+  top: 0px; 
+  right: -5px; 
+  background-color: #F85959; 
+  color: white; 
+  border-radius: 50%; 
+  font-size: 0.732vw; 
+  text-align: center;
+  font-family: Roboto;
+ }
