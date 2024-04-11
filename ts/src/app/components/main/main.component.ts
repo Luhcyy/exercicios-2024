@@ -11,9 +11,9 @@ export class MainComponent implements OnInit {
   showMoreText: boolean = false; // Propriedade para controlar a visibilidade do texto adicional
   showDiscussionsSection = true;
   showTopicForm = false;
-  
+
   pendingTopics: any[] = [];
-  
+
 
   constructor() {
 
@@ -23,8 +23,8 @@ export class MainComponent implements OnInit {
 }
 
 toggleShowMoreText() {
-    this.showMoreText = !this.showMoreText; 
-    this.hideText = !this.hideText; 
+    this.showMoreText = !this.showMoreText;
+    this.hideText = !this.hideText;
 }
 
 toggleTopicForm () {

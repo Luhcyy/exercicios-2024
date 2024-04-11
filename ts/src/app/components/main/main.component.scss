@@ -96,8 +96,14 @@
   width: 8.785vw;
   height: 2.269vw;
   margin: 0.366vw;
+  font-size: 1.171vw;
 }
 
+.download-button .download-icon {
+  height: 1.391vw;
+  width: 1.391vw;
+  margin-right: 0.512vw;
+}
 
 .video_overlay{
 position: relative;
@@ -407,13 +413,15 @@ width: 100%;
   height: 2.343vw;
   cursor: pointer;
   box-shadow: 1px 5px 11px -6px rgba(0,0,0,0.48);
--webkit-box-shadow: 1px 5px 11px -6px rgba(0,0,0,0.48);
--moz-box-shadow: 1px 5px 11px -6px rgba(0,0,0,0.48);
+  -webkit-box-shadow: 1px 5px 11px -6px rgba(0,0,0,0.48);
+  -moz-box-shadow: 1px 5px 11px -6px rgba(0,0,0,0.48);
 }
 
 .btn-create-topic span {
   width: 1.245vw;
   height: 1.245vw;
+  font-size: 1.245vw;
+  
 }
 
 .discussions_content_container .topic_separation {
