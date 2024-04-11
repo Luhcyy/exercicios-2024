@@ -13,6 +13,8 @@ import { PendingTopicComponent } from './components/main/pending-topic/pending-t
 import { FormsModule } from '@angular/forms';
 import { TopicServiceService } from './services/Topic-service.service';
 
+import { MenuItemActiveComponent } from './components/sidebar/menu-item-active/menu-item-active.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,8 @@ import { TopicServiceService } from './services/Topic-service.service';
     AnsweredTopicComponent,
     TopicFormComponent,
     TopicSentComponent,
-    PendingTopicComponent
+    PendingTopicComponent,
+    MenuItemActiveComponent
   ],
   imports: [
     BrowserModule,
