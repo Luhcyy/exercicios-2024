@@ -87,6 +87,10 @@
 }
 
 .buttons_container .download-button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   font-family: Roboto;
   background-color: #ED7839;
@@ -103,6 +107,7 @@
   height: 1.391vw;
   width: 1.391vw;
   margin-right: 0.512vw;
+  margin-bottom: 0.22vw;
 }
 
 .video_overlay{
@@ -421,7 +426,7 @@ width: 100%;
   width: 1.245vw;
   height: 1.245vw;
   font-size: 1.245vw;
-  
+
 }
 
 .discussions_content_container .topic_separation {
