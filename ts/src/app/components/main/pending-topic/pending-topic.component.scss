@@ -9,9 +9,9 @@
   right: 0;
   bottom: 0;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  background-color: rgba(0, 0, 0, 0.12);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(15px);
   z-index: 1;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .pending-topic_container{
-  
+
   position: relative;
   display: flex;
   flex-direction: column;
@@ -61,6 +61,7 @@
   flex-direction: column;
   width: 39.683vw;
   height: 2.782vw;
+
 }
 
 .pending-topic_container .ops-topic-subject {
