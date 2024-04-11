@@ -1,0 +1,27 @@
+.menu_item_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 16.105vw;
+  height: 2.196vw;
+  border-bottom: 2px solid #E7E7E7;
+  background-color: #FDF1EB;
+  overflow: hidden;
+}
+
+.menu_item_container .active-element{
+  width: 0.366vw;
+  height: 2.416vw;
+  background-image: linear-gradient(#FFB455, #ED7839);
+}
+
+.menu_item_container .menu_item_text {
+  font-family: Quicksand;
+  font-size: 1.098vw;
+  line-height: 1.373vw;
+  font-weight: 500;
+  margin-left: 1.757vw;
+  text-decoration: none;
+  color: #725C5C;
+}
