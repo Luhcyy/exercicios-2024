@@ -3,9 +3,9 @@
     <h2 class="Título do trabalho">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h2>
     <div class="top-right_container">
       <div class="buttons_container">
-        <button class="download-button"><img src="/assets/download-solid-white.svg" alt="download-icon" class="download-icon">Download</button>
-        <button class="favorite-button"><img src="/assets/star-solid-white.svg" alt="" class="star-solid"></button>
-        <button class="doi-button"><img src="/assets/doi.png" alt="" class="doi-solid"></button>
+        <a class="download-button"><img src="/assets/download-solid-white.svg" alt="download-icon" class="download-icon">Download</a>
+        <a class="favorite-button"><img src="/assets/star-solid-white.svg" alt="" class="star-solid"></a>
+        <a class="doi-button"><img src="/assets/doi.png" alt="" class="doi-solid"></a>
       </div>
     <h3 class="citacao">COMO CITAR ESSE TRABALHO?</h3>
     </div>
@@ -79,7 +79,7 @@
 
 
       <app-topic-form *ngIf="showTopicForm" (sendClicked)="addPendingTopic()"></app-topic-form>
-      
+
 
       <div class="discussions_content_container" *ngIf="showDiscussionsSection">
         <h4 class="discussions_content_title">Compartilhe suas ideias ou dúvidas com os autores!</h4>
@@ -106,7 +106,7 @@
         <app-pending-topic></app-pending-topic>
       </ng-template>
       <app-topic-card></app-topic-card>
-      <app-topic-card ></app-topic-card>
+      
   </div>
 
   <hr class="page_division">
